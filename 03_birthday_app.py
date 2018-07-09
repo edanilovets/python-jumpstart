@@ -16,8 +16,10 @@ def get_birthday_from_user():
     birthday = datetime.datetime(year, month, day)
     return birthday
 
-def compute_days_between_dates():
-    pass
+def compute_days_between_dates(date1, date2):
+    dt = date1 - date2
+    days = dt.total_seconds() / 60 / 60 / 24
+    return days
 
 def print_birthday_info():
     pass
@@ -26,9 +28,10 @@ def print_birthday_info():
 def main():
     print_header()
     bday = get_birthday_from_user()
-    print(bday)
-    now = None
-    #umber_of_days = compute_days_between_dates(bday, now)
-    #print_birthday_info(number_of_days)
+    now = datetime.datetime.now()
+    number_of_days = compute_days_between_dates(bday, now)
+    print(number_of_days)
+    # print_birthday_info(number_of_days)
+
 
 main()
