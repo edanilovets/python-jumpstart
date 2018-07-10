@@ -1,3 +1,8 @@
+#
+# JOURNAL APP
+#
+
+
 def print_header():
     print("--------------------")
     print("    JOURNAL APP")
