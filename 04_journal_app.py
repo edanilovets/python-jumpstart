@@ -2,7 +2,7 @@
 #
 # lists
 # functions: reversed, enumerate
-#
+
 import journal
 
 
@@ -50,4 +50,5 @@ def main():
     run_event_loop()
 
 
-main()
+if __name__ == "__main__":
+    main()

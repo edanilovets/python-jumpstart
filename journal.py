@@ -2,6 +2,12 @@ import os
 
 
 def load(name):
+    """
+    This method creates and loads journal file
+
+    :param name: The base name of journal to load.
+    :return: A new journal data structure populated with file data.
+    """
     data = []
     filename = os.path.abspath(os.path.join(".", "journals", name + ".jrl"))
     if os.path.exists(filename):
