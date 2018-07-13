@@ -1,3 +1,8 @@
+
+#
+# WIZARD BATTLE
+#
+
 import random
 import time
 
@@ -25,7 +30,7 @@ def main():
 
 def print_header():
     print('--------------------------')
-    print('       WIZARDS GAME')
+    print('       WIZARD BATTLE')
     print('--------------------------')
     print()
 
