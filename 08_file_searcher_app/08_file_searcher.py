@@ -7,6 +7,8 @@ def main():
     if not text:
         print('Invalid text...')
 
+    search_folders(folder, text)
+
 
 def print_header():
     print('--------------------------')
@@ -23,7 +25,7 @@ def get_search_text_from_user():
     pass
 
 
-def search_file():
+def search_folders(folder, text):
     pass
 
 
