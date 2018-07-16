@@ -25,6 +25,7 @@ def main():
         # print('line #{}: {}'.format(m.line, m.text))
     print('Found {} matches'.format(matches_count))
 
+
 def print_header():
     print('--------------------------')
     print('       FILE SEARCHER')
